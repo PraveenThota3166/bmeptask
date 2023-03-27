@@ -1,29 +1,26 @@
 .top-container  {
-    background-color: #E4F9F5;
+    background-image: url(https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    height: 100%;
     position: relative;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    background-size: cover;
     
 }
 .middle-container {
     
 }
 .bottom-container {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 body{
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-.top-cloud{
-    position: absolute;
-    top: 50px;
-    right: 300px;
-}
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
+
 h1{
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
@@ -58,14 +55,19 @@ a{
     
 }
 .chilly{
-    width: 25%;
+    width: 40%;
+    height: 20%;
     float: right;
     margin-right: 30px;
+    border-radius: 10%;
 
 }
 .praveen{
-    width: 10%;
+    width: 15%;
     margin: auto;
-    
-
+    border-radius: 50%;
+    border-style: solid;  
+}
+.fa-brands{
+    margin-left: 10px;
 }
